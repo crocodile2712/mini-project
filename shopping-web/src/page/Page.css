@@ -1,0 +1,324 @@
+/* cart */
+.cart{
+    padding:20px;
+}
+.cart-header>h1{
+    font-weight: 300;
+    text-align: center;
+}
+.cart-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.cart-nav-continue{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+}
+.cart-nav-continue>button{
+    padding: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: transparent;
+}
+.cart-nav-bag{
+    display: flex;
+}
+.cart-nav-bag>p{
+    margin: 0px 10px;
+    color: #000;
+    text-decoration: underline;
+}
+.cart-nav-checkout>button{
+    padding: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    background-color: black;
+    color: white;
+}
+.cart-order{
+    display: flex;
+    justify-content: space-between;
+}
+.cart-products{
+    flex: 3;
+}
+.cart-product{
+    display: flex;
+    justify-content: space-between
+}
+.cart-product-item{
+    flex: 2;
+    display: flex;
+}
+.cart-product-img{
+    width: 200px;
+    padding: 10px;
+}
+.cart-product-des{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.cart-color{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: black;
+}
+.cart-quantity{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cart-add-remove>p{
+    font-size: 24px;
+    margin: 5px;
+}
+.cart-add-remove{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.cart-product-total{
+    font-size: 30px;
+    font-weight: 200;
+}
+.cart-summary{
+    flex: 1;
+}
+.cart-summary-info{
+    border: 0.5px solid lightgray;
+    border-radius: 10px;
+    padding: 20px;
+}
+.cart-summary-info>h1{
+    font-weight: 200;
+}
+.cart-summary-price{
+    margin: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.cart-summary-price-total{
+    font-weight: 500;
+    font-size: 24px;
+}
+.cart-summary-button{
+    padding:0 20px;
+}
+.cart-summary-button>button{
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-weight:400 ;
+}
+.cart-summary-button>button:hover{
+    background-color: gray;
+}
+/* resigter */
+.register{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient( rgba(255,255,255,0.5), rgba(255,255,255,0.5) ), url(https://images.pexels.com/photos/6984661/pexels-photo-6984661.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.register-wrapper{
+    width: 40%;
+    padding: 20px;
+    background-color: white;
+}
+.register-wrapper>h1{
+    font-size: 24px;
+    font-weight: 300;
+}
+.register-form{
+    display: flex;
+    flex-wrap: wrap;
+}
+.register-form>input{
+    flex: 1;
+    min-width: 40%;
+    margin: 20px 10px 0px 0px;
+    padding: 10px;
+}
+.register-form>span{
+    font-size: 12px;
+    margin: 20px 0px;
+}
+.register-form>button{
+    width: 40%;
+    border: none;
+    padding: 15px 20px;
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+}
+/* login */
+.login{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient( rgba(255,255,255,0.5), rgba(255,255,255,0.5) ), url(https://images.pexels.com/photos/6984650/pexels-photo-6984650.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-wrapper{
+    width: 25%;
+    padding: 20px;
+    background-color: white;
+}
+.login-wrapper>h1{
+    font-size: 24px;
+    font-weight: 300;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+}
+.login-input{
+    flex: 1;
+    min-width: 40%;
+    margin: 10px 0;
+    padding: 10px;
+}
+.login-button{
+    width: 40%;
+    border: none;
+    padding: 15px 20px;
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.login-link{
+    margin: 5px 0px;
+    font-size: 12px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+/* productpage */
+.productp{
+    padding: 50px;
+    display: flex;
+}
+.productp-img{
+    flex: 1;
+    width: 40vw;
+    height: 90vh;
+    object-fit: cover;
+}
+.productp-about{
+    flex: 1;
+    padding: 0px 50px
+}
+.productp-title{
+    font-weight: 200;
+}
+.productp-des{
+    margin: 20px 0px;
+}
+.productp-price{
+    font-weight: 100;
+    font-size: 40px;
+}
+.productp-color-size{
+    width: 50%;
+    margin: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.productp-color{
+    display: flex;
+    align-items: center;
+}
+.productp-choose-color{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 0px 5px;
+    cursor: pointer;
+    border: 0.5px solid gray;
+}
+.productp-color>p{
+    font-size: 20px;
+    font-weight: 200;
+}
+.productp-size{
+    display: flex;
+    align-items: center;
+}
+.productp-size>span{
+    font-size: 20px;
+    font-weight: 200;
+}
+.productp-select{
+    margin-left: 10px;
+    padding: 5px;
+}
+.productp-quantity{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.productp-add-remove{
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+.productp-total{
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid teal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 5px;
+}
+.productp-button{
+    padding: 15px;
+    border: 2px solid teal;
+    background-color: white;
+    cursor: pointer;
+    font-weight: 500;
+    color: #000;
+    text-decoration: none;
+    font-size: 13.33333px;
+}
+/* product-list */
+.product-list-title{
+    margin: 20px;
+}
+.product-list-bar{
+    display: flex;
+    justify-content: space-between;
+}
+.product-list-filter,
+.product-list-sort{
+    margin: 20px;
+}
+.product-list-filter>span,
+.product-list-sort>span{
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 20px;
+}
+.product-list-filter>select,
+.product-list-sort>select{
+    padding: 10px;
+    margin-right: 20px;
+}
